@@ -44,7 +44,7 @@ Gruvbox Material Hard Dark Gedit theme based on Catppuccin Gedit theme and Gruvb
   <color name="grey2"                       value="#a89984"/>
 
   <!-- Global Settings -->
-  <style name="text"                        foreground="fg1" background = "bg1"/>
+  <style name="text"                        foreground="fg1" background="bg1"/>
   <style name="selection"                   foreground="fg1" background="bg4"/>
   <style name="cursor"                      foreground="fg0"/>
   <style name="secondary-cursor"            foreground="bg_statusline1"/>
