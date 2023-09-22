@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Gruvbox Material Hard Dark Gedit theme based on Catppuccin Gedit theme and Gruvbox Material colorscheme
+Gruvbox Material Hard Dark Gedit theme is based on:
+	1. Catppuccin Gedit theme
+	2. Gruvbox Gedit theme
+	3. Gruvbox Material colorscheme
 -->
 
 <style-scheme id="gruvbox_material_hard_dark" _name="Gruvbox Material Hard Dark" version="1.0">
@@ -44,45 +47,45 @@ Gruvbox Material Hard Dark Gedit theme based on Catppuccin Gedit theme and Gruvb
   <color name="grey2"                       value="#a89984"/>
 
   <!-- Global Settings -->
-  <style name="text"                        foreground="fg1" background="bg1"/>
-  <style name="selection"                   foreground="fg1" background="bg4"/>
-  <style name="cursor"                      foreground="fg0"/>
-  <style name="secondary-cursor"            foreground="bg_statusline1"/>
-  <style name="current-line"                background="bg_current_word"/>
-  <style name="line-numbers"                foreground="fg1" background="bg_dim"/>
+  <style name="text"                        foreground="fg0" background="bg0"/>
+  <style name="selection"                   foreground="fg0" background="bg4"/>
+  <style name="cursor"                      foreground="fg1"/>
+  <style name="secondary-cursor"            foreground="fg1"/>
+  <style name="current-line"                background="bg1"/>
+  <style name="line-numbers"                foreground="fg0" background="bg_dim"/>
   <style name="draw-spaces"                 foreground="fg1"/>
-  <style name="background-pattern"          background="bg0"/>
-
+  <style name="background-pattern"          background="#2e2c2b"/>
+  
   <!-- Bracket Matching -->
-  <style name="bracket-match"               foreground="purple"/>
-  <style name="bracket-mismatch"            foreground="fg1" background="orange"/>
+  <style name="bracket-match"               foreground="orange"/>
+  <style name="bracket-mismatch"            foreground="bg0" background="red"/>
 
   <!-- Right Margin -->
-  <style name="right-margin"                foreground="fg1" background="bg_dim"/>
+  <style name="right-margin"                foreground="fg1" background="fg0"/>
 
   <!-- Search Matching -->
-  <style name="search-match"                foreground="fg1" background="blue"/>
+  <style name="search-match"                foreground="bg0" background="orange"/>
 
   <!-- Comments -->
-  <style name="def:comment"                 foreground="bg5"/>
-  <style name="def:shebang"                 foreground="bg5" bold="true"/>
+  <style name="def:comment"                 foreground="grey0"/>
+  <style name="def:shebang"                 foreground="grey1" bold="true"/>
   <style name="def:doc-comment-element"     italic="true"/>
 
   <!-- Constants -->
-  <style name="def:constant"                foreground="green"/>
-  <style name="def:string"                  foreground="green"/>
-  <style name="def:special-char"            foreground="aqua"/>
-  <style name="def:special-constant"        foreground="aqua"/>
+  <style name="def:constant"                foreground="fg1"/>
+  <style name="def:string"                  foreground="aqua"/>
+  <style name="def:special-char"            foreground="purple"/>
+  <style name="def:special-constant"        foreground="purple"/>
   <style name="def:floating-point"          foreground="aqua"/>
 
   <!-- Identifiers -->
   <style name="def:identifier"              foreground="blue"/>
 
   <!-- Statements -->
-  <style name="def:statement"               foreground="blue" bold="true"/>
+  <style name="def:statement"               foreground="orange" bold="true"/>
 
   <!-- Types -->
-  <style name="def:type"                    foreground="red" bold="true"/>
+  <style name="def:type"                    foreground="yellow" bold="true"/>
 
   <!-- Markup -->
   <style name="def:emphasis"                italic="true"/>
