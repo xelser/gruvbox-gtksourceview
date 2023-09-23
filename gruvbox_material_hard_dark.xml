@@ -51,7 +51,7 @@ Gruvbox Material Hard Dark Gedit theme is based on:
   <style name="selection"                   foreground="fg0" background="bg4"/>
   <style name="cursor"                      foreground="fg1"/>
   <style name="secondary-cursor"            foreground="fg1"/>
-  <style name="current-line"                background="bg1"/>
+  <style name="current-line"                background="bg_current_word"/>
   <style name="line-numbers"                foreground="fg0" background="bg_dim"/>
   <style name="draw-spaces"                 foreground="fg1"/>
   <style name="background-pattern"          background="#bg_dim"/>
