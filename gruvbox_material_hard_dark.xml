@@ -29,7 +29,7 @@ Gruvbox Material Hard Dark Gedit theme is based on:
   <color name="bg_diff_blue"                value="#0d3138"/>
   <color name="bg_visual_blue"              value="#2e3b3b"/>
   <color name="bg_visual_yellow"            value="#473c29"/>
-  <color name="bg_current_word"             value="#32303f"/>
+  <color name="bg_current_word"             value="#32302f"/>
   <color name="fg0"                         value="#d4be98"/>
   <color name="fg1"                         value="#ddc7a1"/>
   <color name="red"                         value="#ea6962"/>
