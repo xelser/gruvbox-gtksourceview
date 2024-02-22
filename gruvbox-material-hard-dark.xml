@@ -22,70 +22,75 @@
   <_description>Pleasant for the eyes theme for Gedit</_description>
 
   <!-- Named Colors -->
-  <color name="bg_dim"               value="#141617"/>
-  <color name="bg0"                  value="#1D2021"/>
-  <color name="bg1"                  value="#282828"/>
-  <color name="bg2"                  value="#282828"/>
-  <color name="bg3"                  value="#3C3836"/>
-  <color name="bg4"                  value="#3C3836"/>
-  <color name="bg5"                  value="#504945"/>
-  <color name="bg_statusline1"       value="#282828"/>
-  <color name="bg_statusline2"       value="#32302F"/>
-  <color name="bg_statusline3"       value="#504945"/>
-  <color name="bg_diff_green"        value="#32361A"/>
-  <color name="bg_visual_green"      value="#333E34"/>
-  <color name="bg_diff_red"          value="#3C1F1E"/>
-  <color name="bg_visual_red"        value="#442E2D"/>
-  <color name="bg_diff_blue"         value="#0D3138"/>
-  <color name="bg_visual_blue"       value="#2E3B3B"/>
-  <color name="bg_visual_yellow"     value="#473C29"/>
-  <color name="bg_current_word"      value="#32302F"/>
-  
-  <color name="fg0"                  value="#D4BE98"/>
-  <color name="fg1"                  value="#DDC7A1"/>
-  <color name="red"                  value="#EA6962"/>
-  <color name="orange"               value="#E78A4E"/>
-  <color name="yellow"               value="#D8A657"/>
-	<color name="green"                value="#A9B665"/>
-  <color name="aqua"                 value="#89B482"/>
-  <color name="blue"                 value="#7DAEA3"/>
-  <color name="purpe"                value="#D3869B"/> 
-  <color name="bg_red"               value="#EA6962"/>
-  <color name="bg_green"             value="#A9B665"/>
-	<color name="bg_yellow"            value="#D8A657"/>
-  <color name="grey0"                value="#7C6F64"/>
-  <color name="grey1"                value="#928374"/>
-  <color name="grey2"                value="#A89984"/>
+  <color name="bg_dim"                 value="#141617"/>
+  <color name="bg0"                    value="#1D2021"/>
+  <color name="bg1"                    value="#282828"/>
+  <color name="bg2"                    value="#282828"/>
+  <color name="bg3"                    value="#3C3836"/>
+  <color name="bg4"                    value="#3C3836"/>
+  <color name="bg5"                    value="#504945"/>
+  <color name="bg_statusline1"         value="#282828"/>
+  <color name="bg_statusline2"         value="#32302F"/>
+  <color name="bg_statusline3"         value="#504945"/>
+  <color name="bg_diff_green"          value="#32361A"/>
+  <color name="bg_visual_green"        value="#333E34"/>
+  <color name="bg_diff_red"            value="#3C1F1E"/>
+  <color name="bg_visual_red"          value="#442E2D"/>
+  <color name="bg_diff_blue"           value="#0D3138"/>
+  <color name="bg_visual_blue"         value="#2E3B3B"/>
+  <color name="bg_visual_yellow"       value="#473C29"/>
+  <color name="bg_current_word"        value="#32302F"/>
+
+  <color name="fg0"                    value="#D4BE98"/>
+  <color name="fg1"                    value="#DDC7A1"/>
+  <color name="red"                    value="#EA6962"/>
+  <color name="orange"                 value="#E78A4E"/>
+  <color name="yellow"                 value="#D8A657"/>
+  <color name="green"                  value="#A9B665"/>
+  <color name="aqua"                   value="#89B482"/>
+  <color name="blue"                   value="#7DAEA3"/>
+  <color name="purpe"                  value="#D3869B"/>
+  <color name="bg_red"                 value="#EA6962"/>
+  <color name="bg_green"               value="#A9B665"/>
+  <color name="bg_yellow"     	   		 value="#D8A657"/>
+  <color name="grey0"                  value="#7C6F64"/>
+  <color name="grey1"                  value="#928374"/>
+  <color name="grey2"                  value="#A89984"/>
 
   <!-- Global Styles -->
-  <style name="bracket-match"        background="bg3" foreground="green"/>
-  <style name="bracket-mismatch"     background="bg3" foreground="red"/>
-  <style name="current-line"         background="bg_current_word"/>
-  <style name="cursor"               foreground="fg1"/>
-  <style name="line-numbers"         background="bg_dim" foreground="grey1"/>
-  <style name="search-match"         background="yellow"/>
-  <style name="selection"            background="bg_visual_yellow" foreground="fg1"/>
-  <style name="text"                 background="bg0" foreground="fg0"/>
+  <style name="bracket-match"          background="bg_statusline3" foreground="green"/>
+  <style name="bracket-mismatch"       background="bg_statusline3" foreground="red"/>
+  <style name="current-line"           background="bg_statusline2"/>
+  <style name="cursor"                 foreground="fg1"/>
+  <style name="line-numbers"           background="bg_dim" foreground="grey1"/>
+  <style name="search-match"           background="yellow" foreground="bg_dim"/>
+  <style name="selection"              background="bg4" foreground="fg1"/>
+  <style name="text"                   background="bg0" foreground="fg0"/>
 
   <!-- Defaults -->
-  <style name="def:character"        foreground="aqua"/>
-  <style name="def:comment"          foreground="grey0" italic="true"/>
-  <style name="def:constant"         foreground="fg1"/>
-  <style name="def:error"            background="red"/>
-  <style name="def:function"         foreground="green"/>
-  <style name="def:keyword"          foreground="red"/>
-  <style name="def:net-address"      foreground="purpe"/>
-  <style name="def:operator"         foreground="orange"/>
-  <style name="def:preprocessor"     foreground="purpe"/>
-  <style name="def:shebang"          foreground="purpe"/>
-  <style name="def:special-char"     foreground="purpe"/>
-  <style name="def:special-constant" foreground="purpe"/>
-  <style name="def:string"           foreground="aqua"/>
-  <style name="def:type"             foreground="yellow"/>
-  <style name="def:warning"          background="yellow"/>
+  <style name="def:character"          foreground="aqua"/>
+  <style name="def:comment"            foreground="grey0" italic="true"/>
+  <style name="def:constant"           foreground="fg1"/>
+  <style name="def:error"              foreground="red"/>
+  <style name="def:function"           foreground="green"/>
+  <style name="def:identifier"         foreground="blue"/>
+  <style name="def:keyword"            foreground="red"/>
+  <style name="def:operator"           foreground="orange"/>
+  <style name="def:preprocessor"       foreground="purpe"/>
+  <style name="def:shebang"            foreground="purpe"/>
+  <style name="def:special-char"       foreground="purpe"/>
+  <style name="def:special-constant"   foreground="purpe"/>
+  <style name="def:string"             foreground="green"/>
+  <style name="def:type"               foreground="yellow"/>
+  <style name="def:warning"            foreground="yellow"/>
 
   <!-- sh -->
-  <style name="sh:function"          foreground="orange"/>
-  <style name="sh:string"            foreground="green"/>
+  <style name="sh:common-command"      foreground="orange"/>
+  <style name="sh:variable"            foreground="purpe"/>
+  <style name="sh:variable-definition" foreground="blue"/>
+
+  <!-- XML -->
+  <style name="xml:attribute-name"     foreground="aqua"/>
+  <style name="xml:element-name"       foreground="orange"/>
 
 </style-scheme>
