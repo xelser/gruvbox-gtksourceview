@@ -17,32 +17,32 @@
   along with this library; if not, see <http://www.gnu.org/licenses/>.
 
 -->
-<style-scheme id="gruvbox-material-hard-light" _name="Gruvbox Material Hard Light" version="1.0">
+<style-scheme id="gruvbox-material-medium-light" _name="Gruvbox Material Medium Light" version="1.0">
   <author>xelser</author>
   <_description>Pleasant for the eyes theme for Gedit</_description>
 
   <!-- Named Colors -->
   <color name="aqua"                   value="#4C7A5D"/>
-  <color name="bg0"                    value="#F9F5D7"/>
-  <color name="bg1"                    value="#F5EDCA"/>
-  <color name="bg2"                    value="#F3EAC7"/>
-  <color name="bg3"                    value="#F2E5BC"/>
-  <color name="bg4"                    value="#EEE0B7"/>
-  <color name="bg5"                    value="#EBDBB2"/>
-  <color name="bg_current_word"        value="#F3EAC7"/>
-  <color name="bg_diff_blue"           value="#E0E9D3"/>
-  <color name="bg_diff_green"          value="#E4EDC8"/>
-  <color name="bg_diff_red"            value="#F8E4C9"/>
-  <color name="bg_dim"                 value="#F3EAC7"/>
+  <color name="bg0"                    value="#FBF1C7"/>
+  <color name="bg1"                    value="#F4E8BE"/>
+  <color name="bg2"                    value="#F2E5BC"/>
+  <color name="bg3"                    value="#EEE0B7"/>
+  <color name="bg4"                    value="#E5D5AD"/>
+  <color name="bg5"                    value="#DDCCAB"/>
+  <color name="bg_current_word"        value="#F2E5BC"/>
+  <color name="bg_diff_blue"           value="#E2E6C7"/>
+  <color name="bg_diff_green"          value="#E6EABC"/>
+  <color name="bg_diff_red"            value="#F9E0BB"/>
+  <color name="bg_dim"                 value="#F2E5BC"/>
   <color name="bg_green"               value="#6F8352"/>
   <color name="bg_red"                 value="#AE5858"/>
-  <color name="bg_statusline1"         value="#F5EDCA"/>
-  <color name="bg_statusline2"         value="#F3EAC7"/>
-  <color name="bg_statusline3"         value="#EEE0B7"/>
-  <color name="bg_visual_blue"         value="#473C29"/>
-  <color name="bg_visual_green"        value="#DDE5C2"/>
-  <color name="bg_visual_red"          value="#F0DDC3"/>
-  <color name="bg_visual_yellow"       value="#F9EABF"/>
+  <color name="bg_statusline1"         value="#F2E5BC"/>
+  <color name="bg_statusline2"         value="#F2E5BC"/>
+  <color name="bg_statusline3"         value="#E5D5AD"/>
+  <color name="bg_visual_blue"         value="#DADEC0"/>
+  <color name="bg_visual_green"        value="#DEE2B6"/>
+  <color name="bg_visual_red"          value="#F1D9B5"/>
+  <color name="bg_visual_yellow"       value="#FAE7B3"/>
   <color name="bg_yellow"              value="#A96B2C"/>
   <color name="blue"                   value="#45707A"/>
   <color name="fg0"                    value="#654735"/>
